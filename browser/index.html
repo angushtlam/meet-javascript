@@ -1,0 +1,66 @@
+<!--
+  HTML files determine how a webpage looks like in the browser structurally.
+  You can define elements using the <thingy></thingy> syntax.
+
+  The 'head' section of an HTML file lets you add some metadata about the page
+  you're writing.
+  
+  In this file, we got a 'title' element, which changes the text of the tab the
+  page is opened in. The 'link' element has a few more pieces of information.
+  In this one, it is loading a stylesheet into the page.
+
+  We're just going to quickly gloss over the stylesheet and what's in the file,
+  but basically it determines how the page elements looks stylistically.
+-->
+<head>
+  <title>Meet JavaScript</title>
+  
+  <!-- Remove the comment to use the stylesheet! -->
+  <!-- <link href="index.css" rel="stylesheet" type="text/css"> -->
+</head>
+<body>
+  <!--
+    'div' stands for document division. Basically it lets you mark up a section
+    in HTML so you can refer to it in your stylesheets or in your scripts. It
+    does nothing on its own.
+
+    'h1' and 'h2' are two of the six header elements. They're used for bigger
+    text.
+    'p' is a paragraph element. They're used for paragraphs of text.
+    'a' is a clickable link element that lets you specify another page.
+    'input' is an input element.
+    'button' is a clickable button.
+
+    You can see how there's a bunch of other stuff like 'id', 'class', 'type',
+    'href', 'src', etc. sprinkled around the elements. These are attributes of
+    the element. Some elements like the 'script' and 'a' elements require
+    special attribute to get them to work, but all elements can be given a
+    'class' or 'id' attribute.
+
+    You can refer to specific elements you've given an 'id' or 'class' through
+    your script. To keep things simple we'll deal with 'id's only for now.
+  -->
+  <div class="content">
+    <h1>Meet JavaScript</h1>
+    <p>
+      An introductory JavaScript workshop. This is the page used for the second
+      part of the workshop. You can find it at
+      <a href="https://github.com/ubacm/meet-javascript">here</a>.
+    </p>
+    
+    <h2>Input</h2>
+    <input id="userInput" type="text" />
+    <button id="userSend">Send</button>
+
+    <h2>Output</h2>
+    <p id="display">
+      The website loaded!
+    </p>
+  </div>
+  
+  <!--
+    'script' is a script element. You can either load in an external script file
+    like we've done here, or directly put JavaScript right in the
+  -->
+  <script src="index.js"></script>
+</body>
