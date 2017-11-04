@@ -1,5 +1,5 @@
 # Meet JavaScript
-An introduction to JavaScript and web development by Angus Lam <anguslam@buffalo.edu> (http://angus.works)
+An introduction to JavaScript by Angus Lam <anguslam@buffalo.edu> (http://angus.works)
 
 ## Why JavaScript?
 JavaScript is a programming language critical to how the web works today. JavaScript is most commonly used to make websites dynamic, but can also be used on web servers, making games, and even scripting for repetitive tasks for creative applications like Adobe Photoshop or Illustrator. It is by far the most popular language (measured by GitHub pull requests).
